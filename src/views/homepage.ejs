@@ -17,15 +17,15 @@
 
     <!-- Messenger Chat Plugin Code -->
     <div id="fb-root"></div>
-    <!-- <div id="fb-customer-chat" class="fb-customerchat"></div> -->
-    <!-- <script>
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+    <script>
         var chatbox = document.getElementById('fb-customer-chat');
-        chatbox.setAttribute("page_id", "61559052804686");
+        chatbox.setAttribute("page_id", "1649879255815459");
         chatbox.setAttribute("attribution", "biz_inbox"); 
-    </script> -->
+    </script>
     <script>
         window.fbAsyncInit = function () {
-            FB.init({ xfbml: true, version: 'v9.0' });
+            FB.init({ xfbml: true, version: 'v19.0' });
         };
         (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -34,13 +34,9 @@
             js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         }
-            (document, 'script', 'facebook-jssdk')); 
+            (document, 'script', 'facebook-jssdk'));
     </script>
-    <div class="fb-customerchat" attribution="setup_tool" page_id="61559052804686" theme_color="0A7CFF">
-        logged_in_greeting="Xin chào";
-        logged_in_greeting="Xin chào";
 
-    </div>
 </body>
 
 </html>
